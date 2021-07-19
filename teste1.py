@@ -2,8 +2,7 @@ import PySimpleGUI as sg
 
 sg.theme('DarkAmber')
 
-layout = [  [sg.Text('consultor de estoque')],
-            [sg.Text('digite o item'), sg.InputText()],
+layout = [  [sg.Text('digite o item'), sg.InputText()],
             [sg.Button('Ok'), sg.Button('Cancelar')] ]
 
 window = sg.Window('Armazem Rodrigues', layout)
